@@ -1,0 +1,71 @@
+{
+    "mongoose": "mongodb://",
+    "panel": "https://panel.cptcr.cc",
+    "billing": "https://cptcr.shop",
+    "token": "",
+    "panelAdminApiKey": "ptla_",
+    "ids": {
+      "devRoles": [],
+      "devGuilds": [],
+      "devUsers": [],
+      "pings": {
+        "feature_requests": "1339644300740526212"
+      }
+    },
+    "webhooks": {
+      "feature_requests": "https://canary.discord.com/api/webhooks/1339643963182678180/WebHook_TOKEN"
+    },
+    "channels": {
+      "feature_requests": "1339643450039205958"
+    },
+    "infrastructure": {
+        "nodes": [
+            {
+              "name": "Node 1",
+              "url": "http://nl1.node.cptcr.cc",
+              "identifier": 1
+            },
+            {
+              "name": "Node 2",
+              "url": "http://nl2.node.cptcr.cc",
+              "identifier": 2
+            },
+            {
+              "name": "Node 3",
+              "url": "http://nl3.node.cptcr.cc",
+              "identifier": 3
+            }
+        ],
+        "pages": [
+            {
+              "name": "Client API (Shop)",
+              "url": "https://cptcr.shop/api/client/v1"
+            },
+            {
+              "name": "Admin API (Shop)",
+              "url": "https://cptcr.shop/api/admin/v1"
+            },
+            {
+              "name": "Client API (Server)",
+              "url": "https://panel.cptcr.cc/api/client"
+            },
+            {
+              "name": "Admin API (Server)",
+              "url": "https://panel.cptcr.cc/api/application"
+            },
+            {
+              "name": "Server Area",
+              "url": "https://panel.cptcr.cc"
+            },
+            {
+              "name": "Billing Area",
+              "url": "https://cptcr.shop"
+            },
+            {
+              "name": "Website",
+              "url": "https://cptcr.cc"
+            }
+          ]
+          
+    }
+}
