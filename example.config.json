@@ -4,20 +4,6 @@
     "billing": "https://cptcr.shop",
     "token": "",
     "panelAdminApiKey": "ptla_",
-    "ids": {
-      "devRoles": [],
-      "devGuilds": [],
-      "devUsers": [],
-      "pings": {
-        "feature_requests": "1339644300740526212"
-      }
-    },
-    "webhooks": {
-      "feature_requests": "https://canary.discord.com/api/webhooks/1339643963182678180/WebHook_TOKEN"
-    },
-    "channels": {
-      "feature_requests": "1339643450039205958"
-    },
     "infrastructure": {
         "nodes": [
             {

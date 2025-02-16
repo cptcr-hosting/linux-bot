@@ -5,7 +5,10 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
-    "boot": "npm run build && npm run start"
+    "run": "npx pm2 start dist/index.js",
+    "logs": "npx pm2 logs 0",
+    "stop": "npx pm2 stop 0",
+    "restart": "npx pm2 restart 0"
   },
   "dependencies": {
     "@types/mongoose": "^5.11.96",

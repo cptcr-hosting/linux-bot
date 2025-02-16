@@ -30,20 +30,6 @@ Create a config.json file in the root directory with the following content: <br>
     "billing": "", // Paymenter Shop (e.g. https://cptcr.shop )
     "token": "", // Your discord bot token
     "panelAdminApiKey": "", // A Pterodactyl Admin Key (panel.domain.com/admin/api)
-    "ids": {
-      "devRoles": [], // Dev Role IDs
-      "devGuilds": [], // Dev Server IDs
-      "devUsers": [], // Dev User IDs
-      "pings": {
-        "feature_requests": "1339644300740526212" // Role ID for Feature Request Ping
-      }
-    },
-    "webhooks": {
-      "feature_requests": "https://canary.discord.com/api/webhooks/" // WebHook URL for posting feature requests
-    },
-    "channels": {
-      "feature_requests": "1339643450039205958" // Channel ID for feature requests
-    },
     "infrastructure": {
         "nodes": [
             {
@@ -81,8 +67,6 @@ A Node.js API wrapper for interacting with the Paymenter API. This package provi
 discord.js is a powerful Node.js module that allows you to interact with the Discord API very easily. It takes a much more object-oriented approach than most other JS Discord libraries, making your bot's code significantly tidier and easier to comprehend.
 - Mongoose - https://mongoosejs.com/ <br>
 Elegant MongoDB object modeling for Node.js
-- CommandKit - https://commandkit.dev <br>
-CommandKit is a framework designed to streamline the handling of commands and events in Discord.js projects. By automating these processes, it allows developers to focus on the core functionalities of their applications. The framework is open-source and available on GitHub. 
 
 # License
 This project is licensed under the Apache License 2.0 <br>
